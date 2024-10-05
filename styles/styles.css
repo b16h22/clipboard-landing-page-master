@@ -1,0 +1,360 @@
+
+    * {
+      font-family: Bai Jamjuree;
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: white;
+    }
+
+    /* layouts */
+
+    .title-area {
+      max-width: 52%;
+      padding: 1rem 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .section {
+      text-align: center;
+    }
+
+    .header {
+      text-align: center;
+      padding: 8rem 0;
+      background-image: url(../images/bg-header-desktop.png);
+      background-repeat: no-repeat;
+    }
+
+    .header-title {
+      max-width: 52%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .five {
+      width: 100%;
+      text-align: center;
+      padding: 6rem 0;
+    }
+
+    .footer {
+      text-align: center;
+      background-color: hsla(201, 11%, 66%, 0.1);
+      padding: 2.5rem 0;
+      margin-top: 8rem;
+      display: flex;
+      align-items: center;
+    }
+
+    .footer::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .computer {
+      width: 55%;
+      object-fit: scale-down;
+      display: inline-block;
+      margin-left: -5%;
+    }
+    
+    .features-section {
+      display: flex;
+      padding: 4rem 0;
+    }
+
+    .features {
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      text-align: start;
+      padding: 0 0 0 6.5rem;
+    }
+
+    .features-individual {
+      max-width: 60%;
+    }
+
+    .devices {
+      margin-top: 4rem;
+      max-width: 100%;
+      object-fit: scale-down;
+    }
+
+    .tools-section {
+      display: flex;
+      padding: 3rem 8rem;
+    }
+
+    .tools {
+      width: 33.33%;
+      margin: 0 1rem;
+    }
+
+    .tools-icon {
+      height: 2rem;
+    }
+
+    .clients {
+      display: inline-block;
+      margin: 0 2.5rem;
+    }
+
+    .logo-small {
+      padding: 0 8rem;
+      height: 3rem;
+    }
+
+    .links {
+      flex: 60%;
+      display: flex;
+    }
+
+    .links div {
+      width: 33.33%;
+    }
+
+    .links a {
+      display: block;
+      text-decoration: none;
+      color: hsl(210, 10%, 33%);
+      font-weight: 500;
+      padding: 0.5rem 0;
+      text-align: start;
+    }
+
+    .links a:hover {
+      color: hsl(171, 66%, 44%);
+    }
+
+    .social {
+      flex: 20%;
+      padding: 0 8rem;
+    }
+
+    .fa-brands {
+      margin: 0 0.75rem;
+      font-size: 1.75rem;
+      color: hsl(210, 10%, 33%);
+    }
+
+    .fa-brands:hover {
+      color: hsl(171, 66%, 44%);
+    }
+
+    /* buttons */
+
+    .buttons-one {
+      padding-top: 2rem;
+    }
+
+    .button {
+      border-radius: 2rem;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 1rem 2.5rem;
+      color: white;
+      margin: 0 0.5rem;
+      border-left: none;
+      border-right: none;
+    }
+
+    .ios {
+      background-color: hsl(171, 66%, 44%);
+      border-top: 1px solid hsl(171, 66%, 40%);
+      border-bottom: 2px solid hsl(171, 66%, 40%);
+      box-shadow: 0 8px 16px hsla(171, 66%, 44%, 0.3);
+    }
+
+    .mac {
+      background-color: hsl(233, 100%, 69%);
+      border-top: 1px solid hsl(233, 100%, 65%);
+      border-bottom: 2px solid hsl(233, 100%, 65%); 
+      box-shadow: 0 8px 16px hsla(233, 100%, 69%, 0.3);    
+    }
+
+    .ios:hover {
+      background-color: hsl(171, 66%, 54%);
+      border-top: 1px solid hsl(171, 66%, 48%);
+      border-bottom: 2px solid hsl(171, 66%, 48%);
+      box-shadow: 0 2px 8px hsla(171, 66%, 44%, 0.3);
+    }
+
+    .mac:hover {
+      background-color: hsl(233, 100%, 79%);
+      border-top: 1px solid hsl(233, 100%, 75%);
+      border-bottom: 2px solid hsl(233, 100%, 75%);
+      box-shadow: 0 2px 8px hsla(233, 100%, 69%, 0.3);
+    }
+
+    /* titles & descriptions */
+
+    .title {
+      color: hsl(210, 10%, 33%);
+    }
+
+    .one {
+      font-size: 2.6rem;
+      font-weight: 600;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: hsl(210, 10%, 33%);
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      color: hsl(210, 10%, 33%);
+    }
+
+    .features h3 {
+      margin: 0;
+    }
+
+    .desc {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: hsl(201, 11%, 66%);
+      line-height: 1.75rem;
+    }
+
+    .main {
+      font-size: 1.2rem;
+    }
+
+    .small {
+      font-size: 1rem;
+    }
+
+    @media screen and (max-width:48em) {
+
+      .logo {
+        height: 10rem;
+        margin: 2.5rem 0;
+      }
+
+      .section {
+        padding: 2.5rem;
+      }
+
+      .title-area {
+        max-width: 90%;
+      }
+      
+      .header-title {
+        max-width: 100%;
+      }
+
+      .header {
+        background-image: url(../images/bg-header-mobile.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: 8rem 2rem; 
+      }
+
+      .button {
+        font-size: 1.5rem;
+        width: 100%;
+        margin: 1rem 0;
+        padding: 1.25rem 0;
+        border-radius: 2.5rem;
+      }
+
+      .features-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .computer {
+        width: 100%;
+        margin: 0;
+      }
+  
+      .features {
+        width: 100%;
+        text-align: center;
+        padding: 4rem 0 0 0;
+        align-items: center;
+      }
+
+      .features-individual {
+        max-width: 70%;
+      }
+
+      .devices {
+        max-width: 100%;
+      }
+
+      .tools-section {
+        padding: 3rem 0;
+        flex-direction: column;
+        align-items: center;
+      }
+  
+      .tools {
+        width: 90%;
+        margin: 1rem 0;
+      }
+
+      .five {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .clients {
+        max-width: 40%;
+        margin: 2rem 0;
+      }
+
+      .footer {
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .logo-small {
+        padding: 2rem 0;
+        height: 4rem;
+      }
+  
+      .links {
+        flex: 100%;
+        flex-direction: column;
+      }
+
+      .links div {
+        width: 100%;
+      }
+  
+      .links a {
+        width: 100%;
+        padding: 1rem 0;
+        font-size: 1.5rem;
+        text-align: center;
+      }
+  
+      .social {
+        flex: 100%;
+        padding: 1rem 0;
+      }
+  
+      .fa-brands {
+        margin: 1.75rem;
+        font-size: 2rem;
+      }
+
+      .desc, .main, .small {
+        font-size: 1.2rem;
+      }
+
+    }
