@@ -48,6 +48,7 @@
       padding: 2.5rem 0;
       margin-top: 8rem;
       display: flex;
+      justify-content: center;
       align-items: center;
     }
 
@@ -64,7 +65,7 @@
     }
 
     .computer-section {
-      max-width: 50%;
+      flex: 50%;
     }
 
     .computer {
@@ -74,16 +75,16 @@
     }
 
     .features-section {
-      max-width: 50%;
+      flex: 50%;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       text-align: start;
-      padding: 0 0 0 6.5rem;
     }
 
     .features-individual {
       max-width: 60%;
+      margin-left: 6.5rem;
     }
 
     .devices {
@@ -111,13 +112,17 @@
       margin: 0 2.5rem;
     }
 
+    .logo-section {
+      flex: 25%;
+      text-align: center;
+    }
+
     .logo-small {
-      padding: 0 8rem;
       height: 3rem;
     }
 
     .links {
-      flex: 60%;
+      flex: 50%;
       display: flex;
     }
 
@@ -139,8 +144,7 @@
     }
 
     .social {
-      flex: 20%;
-      padding: 0 8rem;
+      flex: 25%;
     }
 
     .fa-brands {
