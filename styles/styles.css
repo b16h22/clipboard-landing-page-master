@@ -242,7 +242,7 @@
       font-size: 1rem;
     }
 
-    @media screen and (max-width:48em) {
+    @media screen and (max-width: 60em) {
 
       .logo {
         height: 10rem;
@@ -277,7 +277,6 @@
       }
 
       .features {
-        display: flex;
         flex-direction: column;
         align-items: center;
       }
