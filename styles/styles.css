@@ -375,7 +375,7 @@
     @media screen and (min-width: 120em) {
 
       .computer {
-        width: 130%;
+        margin-left: 0;
       }
       
     }
