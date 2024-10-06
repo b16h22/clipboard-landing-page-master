@@ -56,21 +56,24 @@
       display: table;
       clear: both;
     }
-
-    .computer {
-      width: 55%;
-      object-fit: scale-down;
-      display: inline-block;
-      margin-left: -5%;
-    }
-    
+        
     .features-section {
       display: flex;
       padding: 4rem 0;
     }
 
+    .computer-section {
+      max-width: 50%;
+    }
+
+    .computer {
+      max-width: 110%;
+      object-fit: scale-down;
+      margin-left: -10%;
+    }
+
     .features {
-      width: 45%;
+      max-width: 50%;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
