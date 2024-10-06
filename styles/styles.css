@@ -65,7 +65,7 @@
     }
 
     .computer-section {
-      flex: 50%;
+      width: 50%;
     }
 
     .computer {
@@ -75,7 +75,7 @@
     }
 
     .features-section {
-      flex: 50%;
+      width: 50%;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
@@ -276,18 +276,22 @@
         border-radius: 2.5rem;
       }
 
-      .features-section {
+      .features {
         display: flex;
         flex-direction: column;
         align-items: center;
       }
 
-      .computer {
+      .computer-section {
         width: 100%;
+      }
+
+      .computer {
+        max-width: 100%;
         margin: 0;
       }
   
-      .features {
+      .features-section {
         width: 100%;
         text-align: center;
         padding: 4rem 0 0 0;
@@ -296,6 +300,7 @@
 
       .features-individual {
         max-width: 70%;
+        margin-left: 0;
       }
 
       .devices {
