@@ -69,7 +69,7 @@
     }
 
     .computer {
-      max-width: 110%;
+      width: 110%;
       object-fit: scale-down;
       margin-left: -10%;
     }
